@@ -1,0 +1,6 @@
+body { font-family: Arial; background:#e9ebee; margin:0; }
+header { background:#3b5998; color:white; padding:10px 20px; }
+.feed { width:60%; margin:20px auto; }
+.post-form textarea { width:100%; height:60px; margin-bottom:5px; }
+.post-form button { padding:5px 10px; cursor:pointer; }
+.post { background:white; padding:10px; margin-bottom:10px; border-radius:5px; }

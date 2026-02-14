@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FaceApp</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>FaceApp</h1>
+<div id="auth">
+  <input type="text" id="username" placeholder="اسم المستخدم">
+  <input type="password" id="password" placeholder="كلمة المرور">
+  <button onclick="register()">تسجيل</button>
+  <button onclick="login()">دخول</button>
+  <button onclick="logout()">خروج</button>
+</div>
+</header>
+<main>
+<section class="post-section">
+  <textarea id="postContent" placeholder="ماذا يحدث؟"></textarea>
+  <input type="file" id="postImage">
+  <button onclick="addPost()">نشر</button>
+  <div id="posts"></div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
